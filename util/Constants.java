@@ -6,7 +6,7 @@ public class Constants {
 		throw new IllegalStateException("Utility class");
 	}
 	
-	public static final String eden_version = "1.32 beta - GEN";
+	public static final String eden_version = "1.0 alpha";
 
 	public static final String BASE_PATH = "/edenapi";
 
@@ -146,15 +146,6 @@ public class Constants {
 	public static final String REQUIRED_PARAM = "00000-3";
 	public static final String SUCCESS = "10000-1";
 
-	public static final String INPUT_PARAM_USERNAME = "username";
-	public static final String INPUT_PARAM_PASSWORD = "password";
-
-	// email settings
-//	public static final String emailFrom = "edenstaremail";//"edenstaremail@gmail.com";
-//	public static final String password = "solar786";
-	public static final String emailFrom = "edenstarbooking@gmail.com";
-	public static final String password = "Solar786";
-
 	// email server settings
 	public static final String port = "587";// "465";
 	public static final String host = "smtp.gmail.com";
@@ -189,13 +180,6 @@ public class Constants {
 	// extend quotation expiry when submitted as an application
 	public static final int extend_expiry_when_application = 30;
 	public static final int application_valid_for_days = 30;
-
-	// jdbcTemplate
-	public static final String db_url = "jdbc:mysql://localhost:3306/jouplenet_eden_db";
-	public static final int db_port = 8090;
-	public static final String db_username = "jouplenet_edenstar_admin";
-	public static final String db_password = "lymUGl5I62lj";
-	public static final String db_driver = "org.mariadb.jdbc.Driver";
 
 	// security deposit percentage
 	public static final double securityDepositPercentage = 0.23672997;
